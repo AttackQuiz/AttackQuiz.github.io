@@ -1,0 +1,39 @@
+html {
+align-items: center;
+text-align: center;
+background-color: #dddddd;
+}
+
+h4 {
+    color: #ececec;
+    border: solid gray 2px;
+    width: 4rem;
+    background-color: gray;
+    border-radius: 2px;
+}
+
+#home {
+    padding-top: 10px;
+    padding-left: 4px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    background-color: #00dba3;
+    width: 20%;
+    height: 20%;
+    border: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+}

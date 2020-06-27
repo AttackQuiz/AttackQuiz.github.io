@@ -1,0 +1,118 @@
+html {
+    text-align: center;
+    align-items: center;
+    background-color: #dddddd;
+    justify-content: center;
+    display: flex;
+	align-items: center;
+}
+
+body li {
+    list-style: none;
+}
+
+h1 {
+    width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 30px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0 #0000002c;
+}
+
+img {
+    width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px;
+    margin: 30px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0 #0000002c;
+}
+
+
+button {
+    width: 86.5%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    box-shadow: 0px 0px 10px 0 #0000002c;
+	border: none;
+	cursor: pointer;
+}
+
+#pool {
+	background-color: #00dba3;
+    width: 20%;
+    height: 20%;
+    border: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+	text-decoration: none;
+}
+
+a.disable {
+  pointer-events: none;
+  cursor: default;
+}
+
+#one {
+	border: solid #dddddd 10px;
+	max-width: 0.1%;
+	margin-left: 48%;
+	border-radius: 100%;
+	margin-top: 10%;
+	position: relative;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0 #0000002c;
+}
+
+#pool2, #pool3, #pool4, #pool5, #pool6, #pool7, #pool8, #pool9, #pool10 {
+	background-color: #00dba3;
+    width: 20%;
+    height: 20%;
+    border: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+	text-decoration: none;
+}
+
+#one2, #one3, #one4, #one5, #one6, #one7, #one8, #one9, #one10 {
+	border: solid #dddddd 10px;
+	max-width: 0.1%;
+	margin-left: 48%;
+	border-radius: 100%;
+	margin-top: 10%;
+	position: relative;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0 #0000002c;
+}
+
+

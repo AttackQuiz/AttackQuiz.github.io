@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function show1(shown1, shown2, shown3, shown4, shown5, shown6, shown7, shown8, shown9, shown10, shown11) {
+            document.getElementById(shown1).style.display = 'block';
+            document.getElementById(shown2).style.display = 'block';
+            document.getElementById(shown3).style.display = 'block';
+            document.getElementById(shown4).style.display = 'block';
+            document.getElementById(shown5).style.display = 'block';
+            document.getElementById(shown6).style.display = 'block';
+            document.getElementById(shown7).style.display = 'block';
+            document.getElementById(shown8).style.display = 'block';
+            document.getElementById(shown9).style.display = 'block';
+            document.getElementById(shown10).style.display = 'block';
+            document.getElementById(shown11).style.display = 'block';
+
+
+
+        };
+        function show(shown, hidden) {
+            document.getElementById(shown).style.display = 'block';
+            document.getElementById(hidden).style.display = 'none';
+            return false
+
+
+        };
+    </script>
+</head>
+
+<body>
+
+    <div id="q1">
+        <h1 style="display: none;" id="we">Scroll And See Year Answers</h1>
+
+        <h1>1. في اي عام هجم العمالقة على البشر للمرة الاولة</h1>
+        <img src="./image/Attack-on-Titan-Colossal-Titan-Cropped.jpg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wronge">850</button>
+        <button id="wrong">840</button>
+        <button id="correct">845</button>
+        <button id="wrongs">855</button>
+
+        <a href="#" id="pool" onclick="return show('q2', 'q1');">Next Question</a>
+
+
+        <a href="" class=" disable" id="one"></a>
+    </div>
+    <div id="q2" style="display:none">
+
+        <h1>1.من الذي ربى ليفاي عندما كان صغيراً</h1>
+        <img src="./image/WhatsApp Image 2020-06-22 at 8.32.57 PM.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="correct1">السفاح كيني</button>
+        <button id="wrong1">والدته كوتشيل</button>
+        <button id="wrong2">القائد ايروين سميث</button>
+        <button id="wrong3">تربى مع عائلة ميكاسا</button>
+
+
+        <a href="#" id="pool2" onclick="return show('q3', 'q2');">Next Question</a>
+
+
+        <a href="" class="disable" id="one2"></a>
+
+    </div>
+
+    <div id="q3" style="display:none">
+
+
+        <h1>1.ما الشيئ الذي رماه العملاق القرد على ميك؟</h1>
+        <img src="./image/2g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wrong32">صخرة كبيرة</button>
+        <button id="wrong12">عملاق</button>
+        <button id="wrong22">منزل</button>
+        <button id="correct12">حصان</button>
+
+
+        <a href="#" id="pool3" onclick="return show('q4', 'q3')">Next Question</a>
+
+
+        <a href="" class=" disable" id="one3"></a>
+
+    </div>
+
+    <div id="q4" style="display:none">
+
+
+        <h1>1.من هي الشخصية الملقبة بأقوى جندي للبشرية؟</h1>
+        <img src="./image/3g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wrong33">ايرن ييجر</button>
+        <button id="correct13">ليفاي</button>
+        <button id="wrong23">ميكاسا</button>
+        <button id="wrong13">ميكي</button>
+
+
+        <a href="#" id="pool4" onclick="return show('q5', 'q4');">Next Question</a>
+
+
+        <a href="" class=" disable" id="one4"></a>
+
+    </div>
+
+    <div id="q5" style="display:none">
+
+
+        <h1>1.ايرن كان بالمركز ال... في التدريب</h1>
+        <img src="./image/4g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wrong34">الثالث</button>
+        <button id="wrong24">الاول</button>
+        <button id="correct14">الخامس</button>
+        <button id="wrong14">السابع</button>
+
+
+        <a href="#" id="pool5" onclick="return show('q6', 'q5')">Next Question</a>
+
+
+        <a href="" class=" disable" id="one5"></a>
+
+    </div>
+
+    <div id="q6" style="display:none">
+
+
+        <h1>1.في اي حلقة يموت فيها ايرن ييجر؟</h1>
+        <img src="./image/5g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wrong35">الحلقة السابعة</button>
+        <button id="wrong25">الحلقة الخامسة و العشرون</button>
+        <button id="wrong15">الحلقة الثانية عشر</button>
+        <button id="correct15">الحلقة الخامسة</button>
+
+
+        <a href="#" id="pool6" onclick="return show('q7', 'q6')">Next Question</a>
+
+
+        <a href="" class=" disable" id="one6"></a>
+
+    </div>
+
+    <div id="q7" style="display:none">
+
+
+        <h1>1.ما هو هدف القائد ايروين من البداية؟</h1>
+        <img src="./image/6g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="correct16">الذهاب للقبو للتأكد من نظرية والده</button>
+        <button id="wrong26">قتل جميع العمالقة إنتقاماً لما فعلوه</button>
+        <button id="wrong36">الإنقلاب على الحكومة لإنها غير عادلة</button>
+        <button id="wrong16">نصر البشرية</button>
+
+
+        <a href="#" id="pool7" onclick="return show('q8', 'q7')">Next Question</a>
+
+
+        <a href="" class=" disable" id="one7"></a>
+
+    </div>
+
+    <div id="q8" style="display:none;">
+
+
+        <h1>1.ما هو اسم أكبر سور؟</h1>
+        <img src="./image/7g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wrong27">سور روز</button>
+        <button id="correct17">سور ماريا</button>
+        <button id="wrong37">سور العمالقة</button>
+        <button id="wrong17">سور سينا</button>
+
+
+        <a href="#" id="pool8" onclick="return show('q9', 'q8')">Next Question</a>
+
+
+        <a href="" class=" disable" id="one8"></a>
+
+    </div>
+
+    <div id="q9" style="display:none;">
+
+
+        <h1>1.من الذي قام بصنع فكرة سد بوابة شيجانشينا؟</h1>
+        <img src="./image/8g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="correct18">ارمين ارليرت</button>
+        <button id="wrong28">ايرن ييجر</button>
+        <button id="wrong38">ايروين سميث</button>
+        <button id="wrong18">القائد بيكسيس</button>
+
+
+        <a href="#" id="pool9" onclick="return show('q10', 'q9')">Next Question</a>
+
+
+        <a href="" class=" disable" id="one9"></a>
+
+    </div>
+
+    <div id="q10" style="display:none;">
+
+        <h1>1.بماذا اقسم ليفاي لإيروين في لحظاته الاخيرة؟</h1>
+        <img src="./image/9g.jpeg" alt="question 1 img" width="100%" height="100%">
+
+        <button id="wrong29">ان يحرر البشرية من هذا الجحيم</button>
+        <button id="correct19">ان ينتقم له و يقتل العملاق الوحش بدون رحمة</button>
+        <button id="wrong39">ان يكتشف السر الموجود خلف الاسوار</button>
+        <button id="wrong19">ان يدافع عن البشرية</button>
+
+
+        <a href="#" id="pool10"
+            onclick="return show1('q1', 'q2', 'q3','q4', 'q5', 'q6','q7', 'q8', 'q9',  'q10', 'we')">Next
+            Question</a>
+
+
+        <a href="" class=" disable" id="one10"></a>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <script src="script5.js"></script>
+    <script src="script6.js"></script>
+    <script src="script7.js"></script>
+    <script src="script8.js"></script>
+    <script src="script9.js"></script>
+    <script src="script10.js"></script>
+
+
+</body>
+
+</html>
